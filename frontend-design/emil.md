@@ -1,7 +1,8 @@
 # emil
 
 **Category:** Frontend Design  
-**Type:** Claude Code skill (design engineer persona)
+**Type:** Claude Code skill (design engineer persona)  
+**Source:** [emilkowalski/skill](https://github.com/emilkowalski/skill)
 
 ## What
 

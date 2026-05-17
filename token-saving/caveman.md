@@ -1,7 +1,8 @@
 # caveman
 
 **Category:** Token Saving  
-**Type:** Claude Code skill
+**Type:** Claude Code skill  
+**Source:** [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
 
 ## What
 

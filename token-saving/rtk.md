@@ -1,7 +1,8 @@
 # rtk (Rust Token Killer)
 
 **Category:** Token Saving  
-**Type:** CLI proxy tool
+**Type:** CLI proxy tool  
+**Source:** [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
 
 ## What
 
@@ -16,10 +17,13 @@ Hook-based: commands are automatically rewritten by the Claude Code hook — no 
 ## Setup
 
 ```bash
-# Install rtk binary
-# (check latest release / your install method)
+# Install
+cargo install --git https://github.com/rtk-ai/rtk
 
-# Verify install
+# Init for Claude Code
+rtk init -g
+
+# Verify
 rtk --version
 rtk gain          # show token savings analytics
 which rtk         # confirm correct binary

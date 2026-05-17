@@ -1,7 +1,8 @@
 # taste skill
 
 **Category:** Frontend Design  
-**Type:** Claude Code skill
+**Type:** Claude Code skill  
+**Source:** [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)
 
 ## What
 

@@ -1,7 +1,8 @@
 # cmux
 
 **Category:** Console  
-**Type:** Claude Code skill
+**Type:** Claude Code skill  
+**Source:** [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
 
 ## What
 
