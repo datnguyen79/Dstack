@@ -21,7 +21,7 @@ npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-fro
 
 Then in any Claude session:
 ```
-/taste
+/design-taste-frontend
 ```
 
 ## What It Enforces

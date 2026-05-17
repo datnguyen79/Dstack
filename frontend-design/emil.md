@@ -21,7 +21,7 @@ npx skills add https://github.com/emilkowalski/skill --skill "emil-design-eng"
 
 Then in any Claude session:
 ```
-/emil
+/emil-design-eng
 ```
 
 ## What It Changes
