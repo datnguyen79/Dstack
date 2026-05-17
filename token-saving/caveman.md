@@ -16,26 +16,20 @@ Claude's default responses have ~20–40% filler. Caveman removes it without los
 
 ## Setup
 
-Caveman is a Claude Code skill. Install it:
-
 ```bash
-# The skill file lives at ~/.claude/skills/caveman/
-# Activate in any session:
-/caveman
+# Install (macOS/Linux/WSL — needs Node ≥18)
+curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash
+
+# Windows
+irm https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.ps1 | iex
 ```
 
-Switch levels mid-session:
+Then in any Claude session:
 ```
-/caveman lite    # softer tone, still drops filler
-/caveman full    # default
-/caveman ultra   # maximum compression
-```
-
-Turn off:
-```
-stop caveman
-# or
-normal mode
+/caveman          # activate (full by default)
+/caveman lite     # softer, still drops filler
+/caveman ultra    # telegraphic
+stop caveman      # turn off
 ```
 
 ## Notes

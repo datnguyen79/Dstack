@@ -15,7 +15,12 @@ Claude's default frontend output looks like every other AI-generated site. The t
 ## Setup
 
 ```bash
-# Activate in any session:
+# Install skill
+npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"
+```
+
+Then in any Claude session:
+```
 /taste
 ```
 

@@ -15,9 +15,13 @@ Even with good design intent, Claude defaults to safe patterns. Emil is an opini
 ## Setup
 
 ```bash
-# Activate in any session:
+# Install skill
+npx skills add https://github.com/emilkowalski/skill --skill "emil-design-eng"
+```
+
+Then in any Claude session:
+```
 /emil
-# or via the design-taste-frontend skill
 ```
 
 ## What It Changes

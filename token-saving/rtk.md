@@ -17,16 +17,18 @@ Hook-based: commands are automatically rewritten by the Claude Code hook — no 
 ## Setup
 
 ```bash
-# Install
-cargo install --git https://github.com/rtk-ai/rtk
+# Install (recommended)
+brew install rtk
+
+# or curl
+curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh
 
 # Init for Claude Code
 rtk init -g
 
 # Verify
 rtk --version
-rtk gain          # show token savings analytics
-which rtk         # confirm correct binary
+rtk gain
 ```
 
 Meta commands (always call directly):

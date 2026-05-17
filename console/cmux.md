@@ -15,9 +15,15 @@ Solo dev context-switching is expensive. cmux keeps relevant panes visible simul
 ## Setup
 
 ```bash
-# Activate workspace management in any Claude session:
-/cmux
+# Install (recommended)
+brew tap manaflow-ai/cmux
+brew install --cask cmux
+
+# Wire Claude Code hooks after install
+cmux hooks setup
 ```
+
+Or download the `.dmg` from [releases](https://github.com/manaflow-ai/cmux/releases/latest/download/cmux-macos.dmg) and drag to Applications.
 
 Skills in the cmux family:
 - `/cmux` — core workspace
