@@ -2,7 +2,7 @@
 
 **Category:** Frontend Design  
 **Type:** Claude Code skill  
-**Source:** [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)
+**Source:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
 
 ## What
 
