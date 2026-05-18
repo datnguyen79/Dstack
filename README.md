@@ -13,6 +13,7 @@ Built around [Claude Code](https://claude.ai/code). Organized by category. Each 
 | [Token Saving](#token-saving) | Keep costs low without losing capability |
 | [Frontend Design](#frontend-design) | Ship high-quality UI fast |
 | [Console](#console) | Terminal productivity |
+| [Coding Behavior](#coding-behavior) | Correct LLM coding failure modes |
 | [Workflows](#workflows) | How I combine tools end-to-end |
 
 ---
@@ -55,6 +56,18 @@ Built around [Claude Code](https://claude.ai/code). Organized by category. Each 
 
 ---
 
+## Coding Behavior
+
+> Goal: correct default LLM failure modes before they become bugs or bloat.
+
+| Tool / Skill | Role |
+|---|---|
+| [karpathy-guidelines](./coding-behavior/karpathy-guidelines.md) | Think before coding, simplicity, surgical changes, goal-driven execution |
+
+→ [Full coding-behavior category](./coding-behavior/README.md)
+
+---
+
 ## Workflows
 
 > How I combine tools together for specific tasks.
@@ -70,10 +83,11 @@ Built around [Claude Code](https://claude.ai/code). Organized by category. Each 
 ## Stack at a Glance
 
 ```
-Token layer:   caveman + rtk        → strip noise, save cost
-Design layer:  taste + emil         → quality UI without templates
-Console layer: cmux                 → organized terminal
-Workflow:      plan → tdd → review → ship
+Token layer:    caveman + rtk        → strip noise, save cost
+Design layer:   taste + emil         → quality UI without templates
+Console layer:  cmux                 → organized terminal
+Behavior layer: karpathy-guidelines  → think first, stay surgical
+Workflow:       plan → tdd → review → ship
 ```
 
 ---
