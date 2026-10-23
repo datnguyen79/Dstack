@@ -16,6 +16,7 @@ Built around [Claude Code](https://claude.ai/code). Organized by category. Each 
 | [Coding Behavior](#coding-behavior) | Correct LLM coding failure modes |
 | [Planning](#planning) | Idea → validated spec → executable plan |
 | [Code Review](#code-review) | Structural audit before merge |
+| [Mods](#mods) | Changes to Claude Code's own UI, one-line install |
 | [Workflows](#workflows) | How I combine tools end-to-end |
 
 ---
@@ -100,6 +101,20 @@ Pipeline: `brainstorming → [grilling] → writing-plans → executing-plans`
 
 ---
 
+## Mods
+
+> Goal: bend Claude Code's own interface to how I work.
+
+| Mod | Role |
+|---|---|
+| [quote-reply](./mods/quote-reply/README.md) | Highlight Claude's reply to quote it into your prompt; reply point by point |
+
+Install: `/plugin install quote-reply --marketplace datnguyen79/Dstack`
+
+→ [Full mods category](./mods/README.md)
+
+---
+
 ## Workflows
 
 > How I combine tools together for specific tasks.
@@ -121,6 +136,7 @@ Console layer:  cmux                                   → organized terminal
 Behavior layer: karpathy-guidelines                    → think first, stay surgical
 Planning layer: brainstorm → grill → plan → execute    → idea to code without drift
 Review layer:   thermo-nuclear-review                  → structural audit, delete complexity
+Mod layer:      quote-reply                            → quote and reply point by point
 Workflow:       plan → tdd → review → ship
 ```
 

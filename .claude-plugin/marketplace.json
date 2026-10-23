@@ -1,0 +1,5 @@
+{
+  "name": "dstack",
+  "owner": { "name": "datnguyen79" },
+  "plugins": [{ "name": "quote-reply", "source": "./mods/quote-reply" }]
+}
