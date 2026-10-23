@@ -1,0 +1,1 @@
+{ "name": "quote-reply", "version": "0.1.0", "description": "Highlight text in the transcript and it is inserted into your prompt as a quote.", "author": { "name": "datnguyen79" }, "types": "./types/index.d.ts" }
